@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewJokeid1"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corner_view2"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+
+        android:text="TextView"
+        android:textColor="#00897B"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewJokeType"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corner_view"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+
+        android:text="TextView"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewJokeId"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:background="@drawable/rounded_corner_view3"
+        android:text="TextView"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewJokePunchline"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corner_view4"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:paddingTop="25dp"
+        android:text="TextView"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
