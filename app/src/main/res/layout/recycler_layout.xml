@@ -2,7 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="250dp"
-    android:orientation="vertical">
+    android:background="#FFF9DC"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="25dp">
+
 
     <TextView
         android:id="@+id/textViewJokeid1"
@@ -35,9 +39,9 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
 
+        android:background="@drawable/rounded_corner_view3"
         android:gravity="center_vertical"
         android:padding="5dp"
-        android:background="@drawable/rounded_corner_view3"
         android:text="TextView"
         android:textColor="@color/white" />
 
